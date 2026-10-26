@@ -14,19 +14,18 @@
     </nav>
 
     <!-- 一个小实验一个 section：id 与菜单锚点对应，先占位、逐实验填充 -->
-      <section id="exp-01"><DynamicLab /></section>
-      <section id="exp-02"><KeepAliveLab/></section>
-      <section id="exp-03"><SlotBasicLab/></section>
-      <section id="exp-04"><NamedSlotLab/></section>
-      <section id="exp-05"><ScopedSlotLab /></section>
-      <section id="exp-06"><ResumeLab /></section>
-      <section id="exp-07"><DirectiveLab /></section>
-
+       <section id="exp-01"><DynamicLab /></section>
+    <section id="exp-02"><KeepAliveLab /></section>
+     <section id="exp-03"><SlotBasicLab  /></section>
+    <section id="exp-04"><NamedSlotLab /></section>
+     <section id="exp-05"><ScopedSlotLab /></section>
+    <section id="exp-06"><ResumeLab /></section>
+    <section id="exp-07"><DirectiveLab /></section>
   </div>
 </template>
 
 <script>
-import DirectiveLab from './experiments/07-directive/DirectiveLab.vue'
+ import DirectiveLab from './experiments/07-directive/DirectiveLab.vue'
 
  export default {
    name: 'App',
